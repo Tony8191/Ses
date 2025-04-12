@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sequence Education Service</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #1A1F36;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    header {
+      background-color: #1A1F36;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    header img {
+      max-width: 100px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 3rem 1rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      position: relative;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+      background-color: white;
+    }
+    .section-title {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+      color: #3D8AE2;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: '✔';
+      color: #2E8B57;
+      margin-right: 0.5rem;
+    }
+    .footer {
+      background-color: #1A1F36;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    form {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      max-width: 600px;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #3D8AE2;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #326fbd;
+    }
+    .two-column {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .two-column section {
+      flex: 1 1 48%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="SES_logo.png" alt="Sequence Education Service Logo" />
+    <h1>SES</h1>
+    <p>Sequence Education Service – Helping Adults Unlock University & Funding</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <div class="section-title">🎯 Who We Help</div>
+      <p>Many adults in the UK are eligible for up to £20,000 per year in student finance — and don’t even know it. We support learners aged 21–60 who haven’t completed a university degree. If you're working part-time, on benefits, or earning under £30,000, we can help you apply to university and change your future.</p>
+    </section>
+
+    <section>
+      <div class="section-title">🤝 Our Support Includes:</div>
+      <ul>
+        <li>One-to-one guidance from enquiry to enrolment</li>
+        <li>Help securing student finance</li>
+        <li>Ongoing academic support after you start</li>
+        <li>Multilingual support available</li>
+      </ul>
+    </section>
+
+    <div class="two-column">
+      <section>
+        <div class="section-title">📋 Entry Requirements</div>
+        <ul>
+          <li>Age: 21 to 60</li>
+          <li>B1 level English or above</li>
+          <li>British Citizen, Settled Status, or Leave to Remain</li>
+          <li>No formal qualifications required</li>
+          <li>Lived in the UK for 3+ years</li>
+        </ul>
+      </section>
+      <section>
+        <div class="section-title">🗂️ Documents Needed</div>
+        <ul>
+          <li>Passport or ID</li>
+          <li>Share Code (if not British)</li>
+          <li>Proof of Address</li>
+          <li>CV (if available)</li>
+        </ul>
+      </section>
+    </div>
+
+    <section>
+      <div class="section-title">📚 Courses and Study Structure</div>
+      <p>We offer flexible pathways to a recognised UK degree. All our programs are structured to support mature learners and fit around work or family life.</p>
+      <ul>
+        <li><strong>Pathway 1:</strong> 1-Year Foundation + 3-Year Bachelor’s Degree</li>
+        <li><strong>Pathway 2:</strong> 2-Year Foundation + 2-Year Top-Up to Bachelor’s Degree</li>
+      </ul>
+      <p><strong>Available Subjects:</strong></p>
+      <ul>
+        <li>Business and Business Management</li>
+        <li>Health and Social Care</li>
+        <li>Law</li>
+      </ul>
+      <p><strong>Study Days:</strong> 1 day/week (9–5pm) or 2 shorter days (10–12 or 6–8pm).</p>
+    </section>
+
+    <section>
+      <div class="section-title">🛠️ How It Works</div>
+      <ol>
+        <li>Get in touch with us for a free consultation</li>
+        <li>We help you explore suitable courses and universities</li>
+        <li>Submit your documents and application with our guidance</li>
+        <li>Apply for student finance – we support this step too</li>
+        <li>Receive your offer and enrol in your chosen course</li>
+        <li>Begin your studies with ongoing academic support from us</li>
+      </ol>
+    </section>
+
+    <section>
+      <div class="section-title">💬 What Our Students Say</div>
+      <p><em>“I didn’t know I could even go to university at my age — now I’m in my second year studying Business thanks to Sequence.”</em><br>– Ahmed, London</p>
+      <p><em>“Sequence helped me through every step, from my application to getting my finance approved. I now study Law part-time while still working.”</em><br>– Sarah, Birmingham</p>
+      <p><em>“I was shocked to find out I could get nearly £20,000 a year in support. Without Sequence, I wouldn't have known how to apply or where to start.”</em><br>– Jamila, Manchester</p>
+    </section>
+
+    <section>
+      <div class="section-title">📞 Get in Touch</div>
+      <ul>
+        <li><strong>Email:</strong> info@sequenceeducation.co.uk</li>
+        <li><strong>Phone:</strong> 0203 123 4567</li>
+        <li><strong>WhatsApp:</strong> 07700 900123</li>
+      </ul>
+      <p>Or fill out our quick enquiry form and we’ll get back to you within 24 hours.</p>
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" /><br />
+        <label for="phone">Phone Number:</label><br />
+        <input type="text" id="phone" name="phone" /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4"></textarea><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <div class="section-title">🏫 Our Partner Colleges</div>
+      <ul>
+        <li><strong>London School of Commerce (LSC)</strong> – Offers courses validated by University of Suffolk and Canterbury Christ Church University</li>
+        <li><strong>William College</strong> – Delivers undergraduate programmes in law and business</li>
+        <li><strong>Elizabeth School of London</strong> – Partnered with Canterbury Christ Church University</li>
+        <li><strong>London College of Contemporary Arts (LCCA)</strong> – Specialises in creative arts programmes with university affiliations</li>
+      </ul>
+    </section>
+
+    <section>
+      <div class="section-title">❓ Frequently Asked Questions</div>
+      <p><strong>Can I study if I am on benefits?</strong><br />Yes. Being on benefits does not prevent you from studying or receiving student finance.</p>
+      <p><strong>Do I need to pay back student finance?</strong><br />You only repay if you earn over £30,000/year.</p>
+      <p><strong>Can I study while working?</strong><br />Yes! The flexible timetable is designed for working adults.</p>
+      <p><strong>What if I haven’t studied in years?</strong><br />We support all students, even those returning after a long gap.</p>
+      <p><strong>Do I need formal qualifications?</strong><br />No. Life or work experience is accepted in many cases.</p>
+      <p><strong>What support do you offer?</strong><br />From application to finance and even assignments — we’re with you all the way.</p>
+    </section>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Sequence Education Service. All rights reserved.
+  </div>
+</body>
+</html>
